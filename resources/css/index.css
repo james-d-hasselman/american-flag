@@ -1,0 +1,72 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.red {
+  background-color: #B22234;
+}
+
+.blue-portion {
+  background-color: #3C3B6E;
+  width: 76vh;
+  height: 53.85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.flag-top {
+  display: flex;
+}
+
+.flag-stripes-top {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.flag-stripes-top div {
+  height: 7.69vh;
+}
+
+.flag {
+  display: flex:
+  flex-direction: column;
+  height: 100vh;
+  width: 190vh;
+  margin: 0 auto;
+}
+
+.star {
+  color: white;
+  font-size: 6.16vh;
+}
+
+.blue-portion div div div{
+  width: 6.16vh;
+  height: 6.16vh;
+  text-align: center;
+}
+
+.six-star-row {
+  display: flex;
+}
+
+.five-star-row {
+  display: flex;
+  margin-top: -.76vh
+}
+
+.spacer {
+  flex: 2;
+}
+
+.star span {
+  vertical-align: top;
+}
+
+img {
+  width: 6.16vh;
+  height: 6.16vh;
+}
